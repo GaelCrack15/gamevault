@@ -1,0 +1,32 @@
+body {
+background: #6a11cb;
+background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgb(162, 37, 252));
+background: linear-gradient(to right, rgba(106, 17, 203, 1), rgb(166, 37, 252));
+}
+
+.form-control{
+    margin-bottom: 24px;
+    background-color: rgb(184, 154, 212);
+}
+.card{
+    border-radius: 1rem;
+}
+
+button{
+    margin-top: 20px;
+}
+
+#tienes{
+    margin-top: 50px;
+}
+
+#username:focus, #contraseña:focus, #email:focus, #confirmarContraseña:focus {
+    border-color: #6a11cb;
+    outline-style: none;
+    box-shadow: 0 0 15px #6a11cb;
+}
+
+.invalid-feedback {
+    display: block;
+    color: #be3a47;
+}

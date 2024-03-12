@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+textarea {
+    outline: none;
+    border: none;
+}
+
+button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+label{
+    display: block;
+    font-family: SourceSansPro-Bold;
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+#fotoJuego{
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.container-contact100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.container-contact100::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(left, rgba(2, 72, 26, 0.5), rgba(57, 6, 76, 0.5));
+    pointer-events: none;
+}
+
+.contact100-map {
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.wrap-contact100 {
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 25px;
+}
+
+.contact100-form {
+    width: 100%;
+}
+
+.contact100-form-title {
+    display: block;
+    font-family: SourceSansPro-Bold;
+    font-size: 30px;
+    color: #b10ef1;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 34px;
+    font-weight: bolder;
+    margin-bottom: -15px;
+}
+
+.error-message {
+    color: rgb(170, 42, 42);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.wrap-input100 {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.input100 {
+    display: block;
+    width: 100%;
+    background: transparent;
+    font-family: SourceSansPro-Bold;
+    font-size: 16px;
+    color: #4b2354;
+    line-height: 1.2;
+}
+
+input.input100 {
+    height: 62px;
+    padding: 0 20px 0 23px;
+}
+
+textarea.input100 {
+    min-height: 199px;
+    padding: 19px 20px 0 23px;
+}
+
+.container-contact100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 43px;
+    gap: 50px;
+}
+
+.contact100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 42px;
+    background-color: #1a1d66;
+    border-radius: 21px;
+
+    font-family: JosefinSans-Bold;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding-top: 5px;
+
+}
+.contact99-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 42px;
+    background-color: #83153a;
+    border-radius: 21px;
+
+    font-family: JosefinSans-Bold;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .wrap-contact100 {
+        padding: 72px 50px 25px 50px;
+    }
+    label{
+        font-size: 18px;
+    }
+    .container-contact100-form-btn {
+        gap: 20px;
+    }
+    .contact100-form-title {
+        margin-top: -30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .wrap-contact100 {
+        padding: 72px 15px 25px 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .alert-validate::before {
+        padding: 0 30px 0 10px;
+    }
+
+    .true-validate::after,
+    .btn-hide-validate {
+        right: 10px;
+    }
+}
